@@ -1,29 +1,23 @@
-<mxfile host="www.draw.io" modified="2019-11-23T14:33:06.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="KseLMzoJrrLVzNzw0ecZ" version="12.2.7" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2019-11-24T13:51:48.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="KdPx4vN0rYh4RQzXKh1r" version="12.2.7" type="github" pages="4">
   <diagram id="OQi11k9dm3J9Q23fnhSq" name="展览管理">
     <mxGraphModel dx="932" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9mA0RukUmpyTmZ_AwiWo-0"/>
         <mxCell id="9mA0RukUmpyTmZ_AwiWo-1" parent="9mA0RukUmpyTmZ_AwiWo-0"/>
         <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-0" value="展览信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
-          <mxGeometry x="20" y="20" width="160" height="520" as="geometry"/>
+          <mxGeometry x="20" y="20" width="160" height="400" as="geometry"/>
         </mxCell>
         <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-1" value="+展览ID&#xa;+展览名称&#xa;+展览英文名称&#xa;+合同编号&#xa;+展览代码&#xa;+展览编号（待确定）&#xa;+展览届数&#xa;+展览期数&#xa;+展览通称&#xa;+展览面积&#xa;+展览性质&#xa;+展览类型&#xa;+展览题材&#xa;+是否工程公司为主场承建&#xa;+展览开始日期&#xa;+展览结束日期&#xa;+提前申报开始时间&#xa;+提前申报结束时间&#xa;+逾期申报开始时间&#xa;+逾期申报结束时间&#xa;+筹展开始时间&#xa;+筹展结束时间&#xa;+撤展开始时间&#xa;+撤展结束时间&#xa;+配置状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wTiBOgBQ-Z7XSCvM8zXQ-0">
-          <mxGeometry y="30" width="160" height="490" as="geometry"/>
+          <mxGeometry y="30" width="160" height="370" as="geometry"/>
         </mxCell>
         <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-2" value="展览机构" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
-          <mxGeometry x="240" y="180" width="160" height="120" as="geometry"/>
+          <mxGeometry x="230" y="275" width="160" height="135" as="geometry"/>
         </mxCell>
-        <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-3" value="+机构名称&#xa;+机构类型&#xa;+联系人姓名&#xa;+联系人电话&#xa;+备注" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wTiBOgBQ-Z7XSCvM8zXQ-2">
-          <mxGeometry y="30" width="160" height="90" as="geometry"/>
-        </mxCell>
-        <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-4" value="账号信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
-          <mxGeometry x="240" y="20" width="160" height="120" as="geometry"/>
-        </mxCell>
-        <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-5" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wTiBOgBQ-Z7XSCvM8zXQ-4">
-          <mxGeometry y="30" width="160" height="90" as="geometry"/>
+        <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-3" value="+机构ID&#xa;+机构名称&#xa;+机构类型&#xa;+联系人姓名&#xa;+联系人电话&#xa;+备注" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wTiBOgBQ-Z7XSCvM8zXQ-2">
+          <mxGeometry y="30" width="160" height="105" as="geometry"/>
         </mxCell>
         <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-6" value="租用展厅" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
-          <mxGeometry x="240" y="320" width="160" height="230" as="geometry"/>
+          <mxGeometry x="230" y="20" width="160" height="230" as="geometry"/>
         </mxCell>
         <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-7" value="+展览ID&#xa;+展馆&#xa;+展区&#xa;+展厅&#xa;+楼层&#xa;+面积&#xa;+参考面积&#xa;+单价&#xa;+天数&#xa;+折扣&#xa;+金额&#xa;+备注&#xa;+是否为工程公司负责" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wTiBOgBQ-Z7XSCvM8zXQ-6">
           <mxGeometry y="30" width="160" height="200" as="geometry"/>
@@ -52,6 +46,24 @@
         <mxCell id="wTiBOgBQ-Z7XSCvM8zXQ-15" value="+配置类型编号&#xa;+配置类型名称&#xa;+三面围板&#xa;+标摊地毯&#xa;+铝合金方台&#xa;+折椅&#xa;+插座&#xa;+日光灯&#xa;+射灯&#xa;+纸屑篓&#xa;+中英文楣板文字&#xa;+6平米价格&#xa;+9平米价格&#xa;+12平米价格" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="wTiBOgBQ-Z7XSCvM8zXQ-14">
           <mxGeometry y="30" width="160" height="210" as="geometry"/>
         </mxCell>
+        <mxCell id="LWi1O2-LCzhNCyJOEcgL-3" value="账号信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
+          <mxGeometry x="230" y="437" width="160" height="163" as="geometry"/>
+        </mxCell>
+        <mxCell id="LWi1O2-LCzhNCyJOEcgL-4" value="+账号ID&#xa;+账号名称&#xa;+密码&#xa;+联系人姓名&#xa;+联系人电话&#xa;+机构ID&#xa;+机构名称&#xa;+是否有开单权限" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="LWi1O2-LCzhNCyJOEcgL-3">
+          <mxGeometry y="30" width="160" height="133" as="geometry"/>
+        </mxCell>
+        <mxCell id="LWi1O2-LCzhNCyJOEcgL-6" value="展览人员信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
+          <mxGeometry x="20" y="442" width="160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="LWi1O2-LCzhNCyJOEcgL-7" value="+主键ID&#xa;+展览ID&#xa;+账号ID&#xa;+角色类型" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="LWi1O2-LCzhNCyJOEcgL-6">
+          <mxGeometry y="30" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="LWi1O2-LCzhNCyJOEcgL-8" value="展览人员关联表" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="9mA0RukUmpyTmZ_AwiWo-1">
+          <mxGeometry x="20" y="584" width="160" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="LWi1O2-LCzhNCyJOEcgL-9" value="+主键ID&#xa;+展览ID&#xa;+统筹科工作人员&#xa;+展览机构操作员" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="LWi1O2-LCzhNCyJOEcgL-8">
+          <mxGeometry y="30" width="160" height="90" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -64,7 +76,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DfZlpGM1tkVq1B9OoIUz" name="巡检管理">
-    <mxGraphModel dx="932" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -190,20 +202,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pS8ahQUou9kwpt2dCZL0" name="审图管理">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="932" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jyGK9xJT-cnMySV6z4up-0"/>
         <mxCell id="jyGK9xJT-cnMySV6z4up-1" parent="jyGK9xJT-cnMySV6z4up-0"/>
-        <mxCell id="jyGK9xJT-cnMySV6z4up-2" value="账号信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jyGK9xJT-cnMySV6z4up-1">
+        <mxCell id="jyGK9xJT-cnMySV6z4up-2" value="账号信息" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="jyGK9xJT-cnMySV6z4up-1" vertex="1">
           <mxGeometry x="30" y="110" width="160" height="130" as="geometry"/>
         </mxCell>
-        <mxCell id="jyGK9xJT-cnMySV6z4up-3" value="+账号ID&#xa;+手机号码&#xa;+邮箱&#xa;+密码&#xa;+关联公司ID&#xa;+加入状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jyGK9xJT-cnMySV6z4up-2">
+        <mxCell id="jyGK9xJT-cnMySV6z4up-3" value="+账号ID&#xa;+手机号码&#xa;+邮箱&#xa;+密码&#xa;+关联公司ID&#xa;+加入状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jyGK9xJT-cnMySV6z4up-2" vertex="1">
           <mxGeometry y="30" width="160" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="jyGK9xJT-cnMySV6z4up-4" value="公司资料" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="jyGK9xJT-cnMySV6z4up-1">
+        <mxCell id="jyGK9xJT-cnMySV6z4up-4" value="公司资料" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="jyGK9xJT-cnMySV6z4up-1" vertex="1">
           <mxGeometry x="253" y="110" width="160" height="240" as="geometry"/>
         </mxCell>
-        <mxCell id="jyGK9xJT-cnMySV6z4up-5" value="+公司ID&#xa;+公司名称&#xa;+统一信用证号&#xa;+地址&#xa;+电话&#xa;+传真&#xa;+电邮&#xa;+负责人姓名&#xa;+负责人身份证号&#xa;+负责人身份证图片&#xa;+公司营业执照图片&#xa;+广交会施工企业编号&#xa;+广交会登录密码&#xa;+状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jyGK9xJT-cnMySV6z4up-4">
+        <mxCell id="jyGK9xJT-cnMySV6z4up-5" value="+公司ID&#xa;+公司名称&#xa;+统一信用证号&#xa;+地址&#xa;+电话&#xa;+传真&#xa;+电邮&#xa;+负责人姓名&#xa;+负责人身份证号&#xa;+负责人身份证图片&#xa;+公司营业执照图片&#xa;+广交会施工企业编号&#xa;+广交会登录密码&#xa;+状态" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jyGK9xJT-cnMySV6z4up-4" vertex="1">
           <mxGeometry y="30" width="160" height="210" as="geometry"/>
         </mxCell>
       </root>
